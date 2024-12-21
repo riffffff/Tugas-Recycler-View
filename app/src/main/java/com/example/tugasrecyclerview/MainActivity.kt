@@ -27,12 +27,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun generateDataDummy(): List<ImageItem> {
         return listOf(
-            ImageItem(R.drawable.sirius),
-            ImageItem(R.drawable.niall),
-            ImageItem(R.drawable.niall),
-            ImageItem(R.drawable.sirius),
-            ImageItem(R.drawable.niall),
-            ImageItem(R.drawable.sirius)
+            ImageItem(R.drawable.messi),
+            ImageItem(R.drawable.bale),
+            ImageItem(R.drawable.ronaldo),
+            ImageItem(R.drawable.neymar),
+            ImageItem(R.drawable.messi),
+            ImageItem(R.drawable.bale),
+            ImageItem(R.drawable.ronaldo),
+            ImageItem(R.drawable.neymar)
         )
     }
 }

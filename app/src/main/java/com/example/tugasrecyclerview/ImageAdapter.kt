@@ -12,7 +12,6 @@ class ImageAdapter (private val listImages: List<ImageItem>,
     inner class ImageViewHolder(private val binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(imageItem: ImageItem) {
             binding.imageView.setImageResource(imageItem.imageResId)
-
             binding.root.setOnClickListener {
                 onClickImage(imageItem)
             }
